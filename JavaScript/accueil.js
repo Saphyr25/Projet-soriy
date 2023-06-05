@@ -6,8 +6,6 @@ function openNav() {
   }
 
 
-
-
   let index = 0;
   displayImages();
 
