@@ -1,3 +1,3 @@
 let form = document.querySelector('#loginForm');
 
-console.log( form.name ); 
+ console.log(form.email)

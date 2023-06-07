@@ -1,0 +1,40 @@
+body {
+    background: #CB997E;
+  }
+  
+  form {
+    background: #C7815C;
+    padding: 0px 20px 5px 20px;
+  }
+  
+  p {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .label-container {
+    text-align: right;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: x-large;
+  }
+  
+  .form-input {
+    height: 32px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+  }
+  
+  .form-row {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background: #B4724F;
+  }
+  
