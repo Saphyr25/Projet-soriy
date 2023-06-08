@@ -1,50 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Contact.css">
-    <script src="Contact.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Contact.css">
+  <script src="Contact.js"></script>
 </head>
+
 <body>
-    <h1>Nous Contacter</h1>
-<form action="" method="post" id="loginForm">
-  <p>Une question ? Un problème ?<br>N'hésitez pas à nous envoyer un message</p>
-  <div class="form-row-container">
-    <label class="form-label" for="nom">Nom:</label>
-    <input class="form-input" type="text" id="nom" name="nom" required>
-  </div>
-
-  <div class="form-row-container">
-    <label class="form-label" for="email">Email:</label>
-    <input class="form-input" type="email" id="email" name="email" required>
-  </div>
-
-  <div class="form-row-container">
-    <label class="form-label" for="sujet">Sujet:</label>
-    <input class="form-input" type="text" id="sujet" name="sujet" required>
-  </div>
-
-  <div class="form-row-container">
-    <label class="form-label" for="message">Message:</label>
-    <textarea class="form-input" id="message" name="message" rows="4" required></textarea>
-  </div>
-
-  <button type="submit">Envoyer mon message</button>
-</form>
-
-    
-    <!-- ---------INFO Adresse -->
-    <div class="parents">
-        <div class="info-ekea">
-            <h2>Adresse :</h2>
-            <p>120 rue des Chantilly</p>
-        </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.46326013432!2d2.3710049!3d48.944664200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66957120baa61%3A0x98bc4d5e7ab4e5d1!2s120%20Rue%20de%20Chantilly%2C%2093200%20Saint-Denis!5e0!3m2!1sfr!2sfr!4v1686126726500!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+  <h1>Nous Contacter</h1>
+  <form action="" method="post" id="loginForm">
+    <p>Une question ? Un problème ?<br>N'hésitez pas à nous envoyer un message</p>
+    <div class="form-row">
+      <label class="form-label" for="nom">Nom:</label>
+      <input class="form-input" type="text" id="nom" name="nom" required>
     </div>
+
+    <div class="form-row">
+      <label class="form-label" for="email">Email:</label>
+      <input class="form-input" type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-row">
+      <label class="form-label" for="sujet">Sujet:</label>
+      <input class="form-input" type="text" id="sujet" name="sujet" required>
+    </div>
+
+    <div class="form-row">
+      <label class="form-label" for="message">Message:</label>
+      <textarea class="form-textarea" id="message" name="message" rows="4" required></textarea>
+    </div>
+
+    <button type="submit">Envoyer mon message</button>
+  </form>
+
+
+  <!-- ---------INFO Adresse -->
+  <div class="parent">
+    <div class="info-ekea">
+      <div class="info-ekea1">
+        <h2>Adresse :</h2>
+        <p>120 rue des Chantilly</p>
+      </div>
+      <div class="info-ekea2">
+        <h2>Adresse :</h2>
+        <p>120 rue des Chantilly</p>
+      </div>
+    </div>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.46326013432!2d2.3710049!3d48.944664200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66957120baa61%3A0x98bc4d5e7ab4e5d1!2s120%20Rue%20de%20Chantilly%2C%2093200%20Saint-Denis!5e0!3m2!1sfr!2sfr!4v1686126726500!5m2!1sfr!2sfr"
+        width="100%²" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <!-- ------------FIN DE LA MAP -->
+  <footer>
+    <h3>e.kea</h3>
+    <p>Nous Contacter</p>
+  </footer>
 </body>
+
 </html>

@@ -1,40 +1,125 @@
 body {
     background: #CB997E;
+    margin: 0;
   }
-  
+  html
+  h1{
+    text-align: center;
+  }
   form {
+    margin: 10%;
     background: #C7815C;
-    padding: 0px 20px 5px 20px;
+    padding: 0px 40px 5px 20px;
+    margin-bottom:40px ;
   }
   
   p {
-    margin: auto;
+    margin: auto 0 20px;
     text-align: center;
   }
-  
-  .label-container {
-    text-align: right;
+  .form-row {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
   }
-  
+
   .form-label {
-    display: block;
+    margin-bottom: 5px;
     font-size: x-large;
   }
-  
+
   .form-input {
+    width: 100%;
+    padding: 5px;
     height: 32px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+  }
+  .form-textarea{
+    margin: 10px 0 10px 0;
+    width: 100%;
     padding: 5px;
     border-radius: 10px;
     border: none;
     box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
-    margin-left: auto;
   }
-  
-  .form-row {
-    margin-bottom: 10px;
-  }
-  
+
   button {
     background: #B4724F;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    display: block;
+ margin: 5px auto 15px auto;
+    width: 80%;
   }
-  
+
+  @media (min-width: 480px) {
+    body{
+      background: #f1f1f1;
+    }
+    .form-row {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .form-label {
+      width: 100px;
+      margin-right: 20px;
+      margin-bottom:5px ;
+      text-align: right;
+    }
+
+    .form-input {
+      padding: 1%;
+      width: 100%;
+    }
+
+  }
+  /* --------------FIN DU FORMULAIRE */
+  .parent {
+    margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    }
+    .info-ekea{
+      padding: 10% 0;
+      background: #C7815C;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  h2{
+    text-decoration: underline ;
+  }
+  /* -------FIN DU GRID */
+
+  footer{
+    text-align: center;
+    padding: 15px;
+    background: rgba(30, 30, 30, 0.82);
+    color: white;
+  }
+  footer p{
+    margin :0;
+    margin-top: 20px;
+  }
+  h3{
+    font-size:xx-large ;
+    margin:0;
+  }
+  @media (min-width: 480px) {
+    footer{
+      display: flex;
+      align-items: baseline;
+      justify-content: space-around;
+    }
+
+  }
