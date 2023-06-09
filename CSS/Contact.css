@@ -58,7 +58,7 @@ body {
     width: 80%;
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: 580px) {
     body{
       background: #f1f1f1;
     }
@@ -77,6 +77,11 @@ body {
     .form-input {
       padding: 1%;
       width: 100%;
+    }
+        footer{
+      display: flex;
+      align-items: baseline;
+      justify-content: space-around;
     }
 
   }
@@ -116,12 +121,4 @@ body {
   h3{
     font-size:xx-large ;
     margin:0;
-  }
-  @media (min-width: 480px) {
-    footer{
-      display: flex;
-      align-items: baseline;
-      justify-content: space-around;
-    }
-
   }
