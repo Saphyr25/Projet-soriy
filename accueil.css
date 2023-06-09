@@ -1,54 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-body {
+  body {
     font-family: 'Open Sans', sans-serif;  
   }
 
-  nav{
-    background: #B7B7A4 ;
-    display: flex;
-    justify-content: space-between;
-  }
 
-  nav img{
-    size: px;
-  }
-
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #B7B7A4;
-    overflow-x: hidden;
-  }
-  
-  .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
+  .bienvenue {
     text-align: center;
-    margin-top: 30px;
+    background-color: #B7B7A4
+    
   }
   
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #f1f1f1;
-    display: block;
-    transition: 0.3s;
-  }
   
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 32px;
+    margin: auto;
+  }
 
-  
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 90px;
+  p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 32px;
+  }
+
+  .nosinspirations{
+    text-align: center;
+    background-color: #A5A58D;
+  }
+
+  .nosservices{
+    text-align: center;
+    background-color: #6B705C;
   }
   
   @media screen and (max-height: 450px) {
