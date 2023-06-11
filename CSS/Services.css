@@ -68,11 +68,28 @@ footer{
     font-size:xx-large ;
     margin:0;
   }
-  
   @media (min-width: 580px) {
     body{
       background: #f1f1f1;
     }
+    .parent{
+      margin: 0;
+      margin-right: 50% ;
+    }
+    #div1 {
+      padding: 0;
+    }
+    #div2 {
+      padding: 0;
+    }
+    .parent2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      }
+
     footer{
       display: flex;
       align-items: baseline;
