@@ -4,6 +4,82 @@ body {
     background: #CB997E; ;
 }
 
+nav{
+  background: #CB997E ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 18px;
+}
+.icones{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(165, 165, 141, 0.97);
+  overflow-x: hidden;
+}
+
+
+.overlay-content {
+  width: 100%;
+  text-align: center;
+  margin-top:100px ;
+}
+
+.overlay h1{
+  font-size:50px;
+  color: #f1f1f1;
+}
+.overlay-footer{
+  background: rgba(0, 0, 0, 0.25);
+  padding: 67px;
+  margin :auto;
+}
+.overlay a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+.overlay .closebtn {
+  position: absolute;
+  font-size: 100px;
+}
+.o
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/*--------------------------------------- FIN de la NAVBAR */
+.image-slideshow {
+width: 100%;
+height: auto;
+overflow: hidden;
+}
+
+.image-slideshow img {
+  width: 100%; 
+  display: block;
+}
+
+/* ------------------------------------------------------------------- */
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -35,7 +111,7 @@ body {
 img{
     width: 100%;
 }
-.image{
+.image-services{
   width: 100%;
 }
 
@@ -95,7 +171,7 @@ footer{
     .test{
       width: 50%;
     }
-    .image{
+    .image-services{
       width: 50%;
     }
   .Services{

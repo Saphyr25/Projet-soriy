@@ -68,7 +68,7 @@ body {
     right: 35px;
     }
   }
-  /* FIN de la NAVBAR */
+  /*--------------------------------------- FIN de la NAVBAR */
   .image-slideshow {
   width: 100%;
   height: auto;
@@ -76,11 +76,8 @@ body {
   }
   
   .image-slideshow img {
-    width: 100%;
-    height:214px; 
-  }
-  .image{
-    height: 214px;
+    width: 100%; 
+    display: block;
   }
   /* -------------------FIn du SLIDERSHOW */
   
@@ -88,8 +85,8 @@ body {
   display: block;
   padding: 0;
   position: relative;
-  width: 50%;
-  max-width: 640px;
+  width:100%;
+  max-width: 100%;
   height: 60px;
 }
  

@@ -1,38 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/Services.css">
-    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/Services.css">
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </head>
+
 <body>
-     <h1>Nos Services</h1>
-      <div class="parent">
-        <div id="div1" onclick="openServices('Livraison')"><h3>Nos services de livrasons</h2></div>
-        <div id="div2" onclick="openServices('Paiement')"><h3>Nos modes de paiements</h3></div>
-      </div>
-    
-      <div id="Livraison" class="Services">
-        <div class="test">
-        <h3>Petit colis :</h2>
-        <p>Chronopost</p>
-        <p>(articles de moins de 12.5kg)</p>
-        <p>9.90€</p>
 
-        <h3>Livraison domicile par transporteur</h3>
-        <p>39€ pour un achat inférieur à 400€</p>
-        <p>59€ pour un achat supérieur à 1000€</p>
-        <p>109€ pour un achat supérieur à 1 000€</p>
+  <nav>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <h1>e.kea</h1>
+        <div class="Nav-a">
+          <a href="index.html">Accueil</a>
+          <a href="inspirations.html">Inspirations</a>
+          <a href="#">Produits</a>
+          <a href="Services.html">Nos Services</a>
+          <a href="Contact.html">Nous Contacter</a>
         </div>
-        <div class="image"><img src="img/aPropos/pexels-tima-miroshnichenko-6169668.jpg" alt=""></div>
+        <div class="icones">
+          <span class="iconify" data-icon="mdi:instagram" data-width="80" data-height="80" color="white"></span>
+          <span class="iconify" data-icon="iconoir:facebook" data-width="80" data-height="80" color="white"></span>
+          <span class="iconify" data-icon="uil:twitter-alt" data-width="80" data-height="80" color="white"></span>
+        </div>
+        <div class="overlay-footer">
+          <p>Copyright - Jade & Stella</p>
+        </div>
       </div>
+    </div>
+    <span style="font-size:45px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <h1>e.kea</h1>
+    <a href=""><span class="iconify" data-icon="mdi:shopping-cart" data-width="45" data-height="45"
+        color="black"></span></a>
+  </nav>
+  <!---------------- FIN de la NAVBAR ----------------->
+  <div class="image-slideshow">
 
-      
-      <div id="Paiement" class="Services" style="display:none">
-        <div class="test">
+    <div class="image">
+      <img src="img/aPropos/pexels-pixabay-259200.jpg" alt="Mountain Top">
+    </div>
+
+    <div class="image">
+      <img src="img/aPropos/pexels-shvets-production-7203788.jpg" alt="Palm Trees">
+    </div>
+    <!-- FIN DU SLIDE SHOW------------------------------------- -->
+    <h1>Nos Services</h1>
+    <div class="parent">
+      <div id="div1" onclick="openServices('Livraison')">
+        <h3>Nos services de livrasons</h2>
+      </div>
+      <div id="div2" onclick="openServices('Paiement')">
+        <h3>Nos modes de paiements</h3>
+      </div>
+    </div>
+
+    <div id="Livraison" class="Services">
+      <div class="test">
+        <h3>Petit colis :</h2>
+          <p>Chronopost</p>
+          <p>(articles de moins de 12.5kg)</p>
+          <p>9.90€</p>
+
+          <h3>Livraison domicile par transporteur</h3>
+          <p>39€ pour un achat inférieur à 400€</p>
+          <p>59€ pour un achat supérieur à 1000€</p>
+          <p>109€ pour un achat supérieur à 1 000€</p>
+      </div>
+      <div class="image-services"><img src="img/aPropos/pexels-tima-miroshnichenko-6169668.jpg" alt=""></div>
+    </div>
+
+
+    <div id="Paiement" class="Services" style="display:none">
+      <div class="test">
         <h3>Paiement par carte bancaire</h3>
         <span class="iconify" data-icon="mingcute:bank-card-fill" data-width="70" data-height="70"></span>
         <span class="iconify" data-icon="mingcute:bank-card-line" data-width="70" data-height="70"></span>
@@ -44,24 +90,25 @@
         <h3>Paiement 4x Sans Frais par CB</h3>
         <div class="circle one-line">
           4x Sans frais par CB
-       </div>
+        </div>
       </div>
-      <div class="image"><img src="img/aPropos/pexels-pixabay-50987.jpg" alt=""></div>
-      </div>
+      <div class="image-services"><img src="img/aPropos/pexels-pixabay-50987.jpg" alt=""></div>
     </div>
+  </div>
 
 
 
 
 
-      <footer>
-        <h3>e.kea</h3>
-        <p>Nous Contacter</p>
-      </footer>
+  <footer>
+    <h3>e.kea</h3>
+    <p>Nous Contacter</p>
+  </footer>
 
- 
-      
 
-    <script src="JavaScript/Services.js"></script>
+
+
+  <script src="JavaScript/Services.js"></script>
 </body>
+
 </html>
