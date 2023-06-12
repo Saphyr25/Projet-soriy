@@ -35,6 +35,10 @@ body {
 img{
     width: 100%;
 }
+.image{
+  width: 100%;
+}
+
 .Services h3{
     margin:0 ;
 }
@@ -53,7 +57,7 @@ img{
 .circle.one-line{
   line-height:100px;
 }
-
+/* ----------------------FOOTER */
 footer{
     text-align: center;
     padding: 15px;
@@ -82,18 +86,31 @@ footer{
     #div2 {
       padding: 0;
     }
-    .parent2 {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr;
-      grid-column-gap: 0px;
-      grid-row-gap: 0px;
-      }
 
     footer{
       display: flex;
       align-items: baseline;
       justify-content: space-around;
     }
+    .test{
+      width: 50%;
+    }
+    .image{
+      width: 50%;
+    }
+  .Services{
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  }
+
+  @media   (max-width : 1020px) {
+    .Services{
+      display : flex; 
+      flex-direction: column;
+      align-items: center;
+    }
+
 
   }

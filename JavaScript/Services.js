@@ -4,7 +4,7 @@ function openServices(ServicesName) {
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";  
     }
-    document.getElementById(ServicesName).style.display = "block";  
+    document.getElementById(ServicesName).style.display = "flex";  
   }
 
 
