@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+  }
+
+  nav{
+    background: #B7B7A4 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 18px;
+  }
+  .icones{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(165, 165, 141, 0.97);
+    overflow-x: hidden;
+  }
+  
+  
+  .overlay-content {
+    width: 100%;
+    text-align: center;
+    margin-top:100px ;
+  }
+  
+  .overlay h1{
+    font-size:50px;
+    color: #f1f1f1;
+  }
+  .overlay-footer{
+    background: rgba(0, 0, 0, 0.25);
+    padding: 67px;
+    margin :auto;
+  }
+  .overlay a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    font-size: 100px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  /*--------------------------------------- FIN de la NAVBAR */
+
+
+
+
+
+  
+  footer{
+    text-align: center;
+    padding: 15px;
+    background: rgba(30, 30, 30, 0.82);
+    color: white;
+  }
+  footer p{
+    margin :0;
+    margin-top: 20px;
+  }
+  h3{
+    font-size:xx-large ;
+    margin:0;
+  }
+
+
+  @media (min-width: 580px) {
+        footer{
+      display: flex;
+      align-items: baseline;
+      justify-content: space-around;
+    }
+
+  }

@@ -58,7 +58,6 @@ body {
     position: absolute;
     font-size: 100px;
   }
-  .o
   
   @media screen and (max-height: 580px) {
     .overlay a {font-size: 20px}
