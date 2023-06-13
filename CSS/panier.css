@@ -101,8 +101,11 @@ body {
 
   section p{
     color: black;
+    margin: 30px;
   }
-  
+  section h1{
+    margin: 40px;
+  }
   .total{
     display: flex;
     justify-content: space-between;
