@@ -36,7 +36,7 @@ text-align: center;
 }
 
 
-@media (min-width: 580px) {
+@media (min-width: 700px) {
   .img1 ,.img2 ,.img3{
     display: flex;
     flex-direction: column;
