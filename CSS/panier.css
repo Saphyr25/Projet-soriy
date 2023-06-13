@@ -115,6 +115,7 @@ body {
     font-size: x-large;
     border-radius: 10px;
     background: rgb(217, 217, 217, 0.53);
+    cursor: pointer;
   }
   .valider{
     background: #B7B7A4;

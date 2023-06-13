@@ -35,3 +35,8 @@ function openNav() {
     // la fonction displayImages sera rappelé apres un delai de 2500 millisecondes
     setTimeout(displayImages, 2500); 
   }
+
+
+  function functionClique(){
+    alert("Le panier a bien été validé!");
+  }

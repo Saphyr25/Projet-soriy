@@ -49,19 +49,47 @@
         </div>
     </div>
     <!-- FIN DE LA BANNIERE------------------------------------- -->
-    <h1>PRODUITS</h1>
+    <div class="titre">
+        <h1>PRODUITS</h1>
 
-    <div class="dropdown">
-        <button class="dropbtn">Dropdown
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a  id="lien1" onclick="openFilter('Confort')" href="#">Confort</a>
+                <a id="lien2" onclick="openFilter('Surface')" href="#">Surface</a>
+                <a id="lien3" onclick="openFilter('Decoration')" href="#">Decoration</a>
+            </div>
         </div>
     </div>
+        <!-- ------------FIN FILTRE-------- -->
+        
+        <section>
+            <div id="Confort" class="img1 Filter">
+                <h3>Confort</h3>
+                <img src="https://resize-elle.ladmedia.fr/alias/original/img/var/plain_site/storage/images/media/images/5-idees-pour-se-creer-une-chambre-zen-image_3/69327385-1-fre-FR/5-idees-pour-se-creer-une-chambre-zen-image_3.jpg"
+                    alt="">
+                <img
+                    src="https://cdn-elle.ladmedia.fr/var/plain_site/storage/images/deco/pieces/chambre/5-astuces-pour-se-creer-une-chambre-zen-3180421/69327424-1-fre-FR/5-idees-pour-se-creer-une-chambre-zen.jpg">
+            </div>
 
+            <div id="Surface" class="img2 Filter">
+                <h3>Surface</h3>
+                <img src="https://www.lineanatura.fr/modules//smartblog/views/img/18-single-default.jpg">
+                <img
+                    src="https://res.cloudinary.com/dgodjz1pn/image/upload/c_scale,dpr_auto,q_auto,f_auto,w_auto:100:500/v1624888519/cocoons/Chambre/Chambre-adulte/deco-chambre/decorations-chambre-zen.jpg">
+            </div>
+
+            <div id="Decoration" class="img3 Filter">
+                <h3>Décoration</h3>
+                <img
+                    src="https://www.consobrico.com/wp-content/uploads/2016/09/id%C3%A9e-de-d%C3%A9co-cuisine-zen-avec-pierres.jpg">
+                <img
+                    src="https://images.ctfassets.net/b85ozb2q358o/923123df56523d8b026a7d74e88aa2b8b876b957eed2b98f349ac554dba62e36/b9fb283f883c509e4374fd6515f57eb6/image.png">
+            </div>
+            
+        </section>
 </body>
 
 </html>
