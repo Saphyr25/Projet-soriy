@@ -1,52 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-  body {
-    font-family: 'Open Sans', sans-serif;  
-    margin: 0;
-  }
+.titre{
+display: flex;
+justify-content: center;
+text-align: center;
+font-size: large;
+}
 
 
-  .bienvenue {
-    text-align: center;
-    background-color: #B7B7A4
-    
-  }
+.img1 img{
+margin-left: 10%;
+width: 35%;
+height: 35%;
+}
+
+
+.img2 img{
+margin-left: 10%;
+width: 35%;
+height: 35%;
+padding-top: 5%;
+}
+
+
+.img3 img{
+margin-left: 10%;
+width: 35%;
+height: 35%;
+padding-top: 5%;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-widht: 580px) {
+   
   
-  
-  h1 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Inter';
-    font-style: normal;
-    margin: auto;
-  }
-
-  p {
-    display: flex;
-    justify-content: center;
-    font-family: 'Inter';
-  }
-
-  .nosinspirations{
-    text-align: center;
-    background-color: #A5A58D;
-  }
-
-  .nosservices{
-    text-align: center;
-    background-color: #6B705C;
-  }
-  button{
-    background: black;
-    color: white;
-    padding: 5px;
-    border-radius: 20px;
-  }
-  @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
-  }
+}
