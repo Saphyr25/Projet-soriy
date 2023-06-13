@@ -50,7 +50,7 @@ var div1 = document.getElementById("div1");
 var div2 = document.getElementById("div2");
 // cette ligne de code crée un event , lorsqu'on clique sur div1 une fonctions éxecute
 div1.addEventListener("click", function() {
-  // la couleurs  des div sont alternés
+  // la couleurs  des div sont alternésn
   div2.style.background="#A76F51";
   div1.style.background=" #C7815C";
 
@@ -63,39 +63,6 @@ div2.addEventListener("click", function() {
 
 
 
-// .dropdown-content {
-//   display: none;
-//   position: absolute;
-//   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-// }
-// .dropdown-content a {
-//   padding: 12px 16px;
-//   text-decoration: none;
-//   display: block;
-// }
 
-// .dropdown-content a:hover {
-//   background-color: #ddd;
-// }
 
-// .dropdown:hover .dropdown-content {
-//   display: block;
-// }
-
-// </style>
-// </head>
-// <body>
-
-// <div class="navbar">
-//   <div class="dropdown">
-//     <button class="dropbtn">Dropdown 
-//       <i class="fa fa-caret-down"></i>
-//     </button>
-//     <div class="dropdown-content">
-//       <a href="#">Link 1</a>
-//       <a href="#">Link 2</a>
-//       <a href="#">Link 3</a>
-//     </div>
-//   </div> 
-// </div>
 
