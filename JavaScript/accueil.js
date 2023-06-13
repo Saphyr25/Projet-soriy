@@ -8,7 +8,8 @@ function openNav() {
     document.getElementById("myNav").style.width = "0%";
   }
 
-// Slide Show
+  
+// ------------------------Slide Show
 // Création de la variable index avec une valeur donné de 0
   let index = 0;
 
@@ -36,7 +37,7 @@ function openNav() {
     setTimeout(displayImages, 2500); 
   }
 
-
+// simple alert lorsqu on cliquqe sur le bouton avec l attribu functionClique
   function functionClique(){
     alert("Le panier a bien été validé!");
   }

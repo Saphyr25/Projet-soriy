@@ -37,7 +37,7 @@
     </div>
     <span style="font-size:45px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <h1>e.kea</h1>
-    <a href=""><span class="iconify" data-icon="mdi:shopping-cart" data-width="45" data-height="45"
+    <a href="panier.html"><span class="iconify" data-icon="mdi:shopping-cart" data-width="45" data-height="45"
         color="black"></span></a>
   </nav>
   <!---------------- FIN de la NAVBAR ----------------->
@@ -49,29 +49,30 @@
   </div>
   <!-- FIN DU SLIDE SHOW------------------------------------- -->
   <h1>Nous Contacter</h1>
-  <form action="" method="post" id="loginForm">
+
+  <form onsubmit="return validerFormulaire()">
     <p>Une question ? Un problème ?<br>N'hésitez pas à nous envoyer un message</p>
     <div class="form-row">
       <label class="form-label" for="nom">Nom:</label>
-      <input class="form-input" type="text" id="nom" name="nom" required>
+      <input class="form-input" type="text" id="nom" name="nom" >
     </div>
 
     <div class="form-row">
       <label class="form-label" for="email">Email:</label>
-      <input class="form-input" type="email" id="email" name="email" required>
+      <input class="form-input" type="text" id="email" name="email" >
     </div>
 
     <div class="form-row">
       <label class="form-label" for="sujet">Sujet:</label>
-      <input class="form-input" type="text" id="sujet" name="sujet" required>
+      <input class="form-input" type="text" id="sujet" name="sujet" >
     </div>
 
     <div class="form-row">
       <label class="form-label" for="message">Message:</label>
-      <textarea class="form-textarea" id="message" name="message" rows="4" required></textarea>
+      <textarea class="form-textarea" id="message" name="message" rows="4"  ></textarea>
     </div>
 
-    <button type="submit">Envoyer mon message</button>
+    <button type="submit" value="Envoyer">Envoyer mon message</button>
   </form>
 
 
